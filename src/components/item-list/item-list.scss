@@ -1,0 +1,11 @@
+.item__list{
+  background-color: #313030;
+  border: 1px solid #444444;
+  &-item{
+    padding: 10px 20px;
+    cursor: pointer;
+    &:hover{
+      background-color: #474646;
+    }
+  }
+}

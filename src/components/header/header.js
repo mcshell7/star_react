@@ -1,6 +1,6 @@
 import React from "react";
 
-import './header.css';
+import './header.scss';
 
 const Header = () => {
   return (
@@ -8,6 +8,12 @@ const Header = () => {
       <div className="header__logo">Star DB</div>
       <nav className="header__nav">
         <ul className="header__nav-list">
+          <li className="header__nav-item">
+            <a href="#" className="header__nav-link">People</a>
+          </li>
+          <li className="header__nav-item">
+            <a href="#" className="header__nav-link">Planets</a>
+          </li>
           <li className="header__nav-item">
             <a href="#" className="header__nav-link">People</a>
           </li>

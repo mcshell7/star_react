@@ -1,0 +1,36 @@
+.header{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  &__logo{
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    margin-right: 70px;
+  }
+  &__nav-list{
+    display: flex;
+    align-items: center;
+    .header__nav-link + &{
+      margin: 20px;
+    }
+  }
+  &__nav-item{
+    & + &{
+      margin-left: 30px;
+    }
+  }
+  
+  &__nav-link{
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 500;
+    color: cadetblue;
+    padding: 10px 15px;
+    &:hover{
+      background-color: #474646;
+      color: cadetblue;
+    }
+  }
+}

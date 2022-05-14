@@ -2,7 +2,7 @@ import React from "react";
 
 import './error-indicator.scss';
 import icon from './error_icon.png'
-const ErorrIndicator = () => {
+const ErrorIndicator = () => {
   return(
     <div className="error-indicator">
       <img src={icon} alt="Error icon "/>
@@ -13,4 +13,4 @@ const ErorrIndicator = () => {
   );
 }
 
-export default ErorrIndicator;
+export default ErrorIndicator;
